@@ -6,8 +6,8 @@ RUN apt-get update && \
 
 WORKDIR /opt
 
-RUN wget https://github.com/NetLogo/NetLogo/releases/download/6.2.2/NetLogo-6.2.2-64.tgz && \
-    tar -xzf NetLogo-6.2.2-64.tgz && \
+RUN wget https://github.com/NetLogo/NetLogo/releases/download/6.2.2/NetLogo-6.2.2-64.zip && \
+    unzip NetLogo-6.2.2-64.zip && \
     mv NetLogo\ 6.2.2 netlogo
 
 ENV NETLOGO_HOME=/opt/netlogo
