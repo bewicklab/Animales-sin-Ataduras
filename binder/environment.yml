@@ -1,6 +1,0 @@
-name: netlogo
-channels:
-  - conda-forge
-dependencies:
-  - openjdk=11
-  - netlogo=6.3.0
