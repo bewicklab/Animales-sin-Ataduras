@@ -1,0 +1,2 @@
+#!/bin/bash
+java -jar netlogo/app/NetLogo.jar
