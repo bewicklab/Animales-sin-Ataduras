@@ -1,0 +1,8 @@
+#!/bin/bash
+
+apt-get update
+apt-get install -y default-jre wget unzip
+
+wget https://github.com/NetLogo/NetLogo/releases/download/6.2.2/NetLogo-6.2.2.zip
+unzip NetLogo-6.2.2.zip
+mv NetLogo\ 6.2.2 netlogo
