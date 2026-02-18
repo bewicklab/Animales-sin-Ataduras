@@ -1,2 +1,2 @@
 #!/bin/bash
-/opt/netlogo/netlogo-headless.sh
+echo "NetLogo ready"
